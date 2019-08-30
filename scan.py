@@ -32,12 +32,12 @@ def progressbar(it, prefix="", size=60):
 	sys.stdout.write("\n")
 	sys.stdout.flush()
 
-def scanurl():
+# Utilizing the VirusTotal API URL report to generate a basic report about scanned URL.
+def scan_url_report():
 	get_link = input("Link to scan: ")
 	url = "https://www.virustotal.com/vtapi/v2/url/report"
 	parameters = {"resource": get_link,"apikey": Api_Key}
-	data = urllib.parse.urlencode(parameters)
-	data = data.encode('utf-8')
+	data = urllib.parse.urlencode(parameters).encode('utf-8')
 	req = Request(url, data)
 	response = urlopen(req)
 	json = response.read()
@@ -58,7 +58,7 @@ def scanurl():
  / / __/ __ \/ __ \/ __  /   | | /| / / __ \/ ___/ //_/ / 
 / /_/ / /_/ / /_/ / /_/ /    | |/ |/ / /_/ / /  / ,< /_/  
 \____/\____/\____/\__,_/     |__/|__/\____/_/  /_/|_(_)\n""")
-		print ("Scan finished, Check your scan information bellow:\n")
+		print ("Scan finished, Check your scan information below:\n")
 		print ("|Scan ID: "+scan_id)
 		print ("|Link: "+link)
 		print ("|Scan Date: "+scan_date)
@@ -102,14 +102,14 @@ Scan any website using more than 60 scanner from (virustotal).
 Originally developed by @magic_coding (www.twitter.com/magic_coding)
 Upgraded by @codemaverick69 (twitter.com/codemaverick69)
 -------------------------\n""")
-	print ("1- Scan Website")
-	print ("2- About Developer")
-	print ("3- Exit System")
+	print ("1 - Basic Website Scan Reprot")
+	print ("2 - About Developer")
+	print ("3 - Exit System")
 	try:
 		decision = input("Select your action: ")
 		if decision.isdigit() == True:
 			if(int(decision) == 1):
-				scanurl()
+				scan_url_report()
 			elif(int(decision) == 2):
 				info()
 			elif(int(decision) == 3):
