@@ -50,7 +50,12 @@ python scan.py
 
 **Output:**
 
-<img src="http://s16.postimg.org/a21wio3k5/Untitled_1.jpg" width="600">
+<img src="https://github.com/ComputerMaverick69/web-application-security-scanner/blob/master/Screenshot%20(8).png" width="600">
+<img src="https://github.com/ComputerMaverick69/web-application-security-scanner/blob/master/Screenshot%20(9).png" width="600">
+<img src="https://github.com/ComputerMaverick69/web-application-security-scanner/blob/master/Screenshot%20(10).png" width="600">
+<img src="https://github.com/ComputerMaverick69/web-application-security-scanner/blob/master/Screenshot%20(11).png" width="600">
+<img src="https://github.com/ComputerMaverick69/web-application-security-scanner/blob/master/Screenshot%20(12).png" width="600">
+<img src="https://github.com/ComputerMaverick69/web-application-security-scanner/blob/master/Screenshot%20(4).png" width="600">
 
 **Have a problem?**
 
