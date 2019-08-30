@@ -71,7 +71,7 @@ def scanurl():
 		else:
 			pass
 	else:
-		enter = input("[!] There is error. Please try again..[Press Enter]")
+		input("[!] There is error. Please try again..[Press Enter]")
 
 def cls():
 	os.system('cls' if os.name=='nt' else 'clear')
@@ -83,8 +83,8 @@ def info():
   / / / / __ \/ /      / ___/_________ _____  ____  ___  _____
  / / / / /_/ / /       \__ \/ ___/ __ `/ __ \/ __ \/ _ \/ ___/
 / /_/ / _, _/ /___    ___/ / /__/ /_/ / / / / / / /  __/ /    
-\____/_/ |_/_____/   /____/\___/\__,_/_/ /_/_/ /_/\___/_/\n""")
-	print ("""This program was originally developed by Mahmoud Al-nafei (www.twitter.com/magic_coding) and upgraded to run Python 3 by Timmy Iwoni (twitter.com/codemaverick6).
+\____/_/ |_/_____/   /____/\___/\__,_/_/ /_/_/ /_/\___/_/""")
+	print ("""\nThis program was originally developed by Mahmoud Al-nafei (www.twitter.com/magic_coding) and upgraded to run Python 3 by Timmy Iwoni (twitter.com/codemaverick6).
 It's free for use.""")
 	Enter = input("press (Enter) to go back..")
 	if Enter:
@@ -99,8 +99,8 @@ while True:
 \____/_/ |_/_____/   /____/\___/\__,_/_/ /_/_/ /_/\___/_/     
                                                               
 Scan any website using more than 60 scanner from (virustotal).
-Originally developed by @magic_coding (www.twitter.com/magic_coding)\n
-Upgraded by @codemaverick69 (twitter.com/codemaverick69)\n
+Originally developed by @magic_coding (www.twitter.com/magic_coding)
+Upgraded by @codemaverick69 (twitter.com/codemaverick69)
 -------------------------\n""")
 	print ("1- Scan Website")
 	print ("2- About Developer")

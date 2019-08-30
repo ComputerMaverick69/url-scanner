@@ -1,11 +1,11 @@
-# <img src="https://ee5817f8e2e9a2e34042-3365e7f0719651e5b8d0979bce83c558.ssl.cf5.rackcdn.com/python.png" width="48"><img src="https://sucuri.net/images/icons/features/large/malware-detection-website-icon-large.png" width="48">url-scanner
+# <img src="https://ee5817f8e2e9a2e34042-3365e7f0719651e5b8d0979bce83c558.ssl.cf5.rackcdn.com/python.png" width="48"><img src="https://sucuri.net/images/icons/features/large/malware-detection-website-icon-large.png" width="48">web-application-security-scanner
 
-This program was originally developed using python 2.x. It makes use of  VirusTotal api v2 to scan urls and get report.
+This program was originally developed using python 2.7 and now upgraded to run on Python 3.x. It makes use of  VirusTotal api v2 to scan urls and get report.
 
 
 **Program Requirements:**
 
-- Python 3.x [Download link](https://www.python.org/)
+- Python 3.7.4 [Download link](https://www.python.org/ftp/python/3.7.4/python-3.7.4.exe)
 - VirusTotal api [How to obtain API?](https://www.virustotal.com/en/documentation/public-api/)
 
 
